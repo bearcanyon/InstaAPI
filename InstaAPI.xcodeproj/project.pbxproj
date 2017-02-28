@@ -14,6 +14,7 @@
 		5F3B07DE1E63CD11009CCB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3B07DC1E63CD11009CCB9D /* LaunchScreen.storyboard */; };
 		5F3B07E91E63CD12009CCB9D /* InstaAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B07E81E63CD12009CCB9D /* InstaAPITests.swift */; };
 		5F3B07F41E63CD12009CCB9D /* InstaAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B07F31E63CD12009CCB9D /* InstaAPIUITests.swift */; };
+		5F3F6EF41E654C0800DE7319 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F6EF31E654C0800DE7319 /* ApiManager.swift */; };
 		A0016F371B79607D7469A73A /* Pods_InstaAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6805EB4456EA444EF30D72 /* Pods_InstaAPI.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		5F3B07EF1E63CD12009CCB9D /* InstaAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3B07F31E63CD12009CCB9D /* InstaAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaAPIUITests.swift; sourceTree = "<group>"; };
 		5F3B07F51E63CD12009CCB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3F6EF31E654C0800DE7319 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7A6805EB4456EA444EF30D72 /* Pods_InstaAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 			children = (
 				5F3B07D31E63CD11009CCB9D /* AppDelegate.swift */,
 				5F3B07D51E63CD11009CCB9D /* ViewController.swift */,
+				5F3F6EF31E654C0800DE7319 /* ApiManager.swift */,
 				5F3B07D71E63CD11009CCB9D /* Main.storyboard */,
 				5F3B07DA1E63CD11009CCB9D /* Assets.xcassets */,
 				5F3B07DC1E63CD11009CCB9D /* LaunchScreen.storyboard */,
@@ -338,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3B07D61E63CD11009CCB9D /* ViewController.swift in Sources */,
+				5F3F6EF41E654C0800DE7319 /* ApiManager.swift in Sources */,
 				5F3B07D41E63CD11009CCB9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,6 +593,7 @@
 				5F3B07FA1E63CD12009CCB9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F3B07FB1E63CD12009CCB9D /* Build configuration list for PBXNativeTarget "InstaAPITests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +602,7 @@
 				5F3B07FD1E63CD12009CCB9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F3B07FE1E63CD12009CCB9D /* Build configuration list for PBXNativeTarget "InstaAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +611,7 @@
 				5F3B08001E63CD12009CCB9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
