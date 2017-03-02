@@ -81,6 +81,18 @@
             ReferencedContainer = "container:InstaAPI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "urlString"
+            value = "https://api.instagram.com/v1/users/self/media/recent?access_token=30724986.0c301ed.31740b81f98f43f6a6c4217bb7182a26"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "client_id"
+            value = "0c301ed49ab945bcb9bc0011f1c1cd3a"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
